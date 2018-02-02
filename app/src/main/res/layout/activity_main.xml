@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.ana_1202154337_modul1.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Makan Malam"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="dengan Milea"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/nama_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Mau pesan apa?"/>
+
+    <EditText
+        android:id="@+id/jumlah_porsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Berapa porsi?"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <Button
+            android:id="@+id/btn_eatbus"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="EATBUS"
+            android:onClick="ke_eatbus"
+            android:layout_marginRight="25dp"/>
+
+        <Button
+            android:id="@+id/btn_abnormal"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="ABNORMAL"
+            android:onClick="ke_abnormal"
+            android:layout_marginLeft="25dp"/>
+
+    </LinearLayout>
+</LinearLayout>
